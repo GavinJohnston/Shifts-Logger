@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{702B9E8E-D42B-4A02-A190-1B2FAE0196BB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ShiftsLoggerController.cs">
+    <Files>
+      <File FileName="Controllers/ShiftsLoggerController.cs" Line="37" Column="2" />
+      <File FileName="Program.cs" Line="26" Column="1" />
+      <File FileName="Models/Shifts.cs" Line="1" Column="1" />
+      <File FileName="Models/DataContext.cs" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ShiftsLoggerAPI" expanded="True">
+            <Node name="ShiftsLoggerAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ShiftsLoggerAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/gavin/Projects/Shifts Logger/ShiftsLoggerAPI/Program.cs" relfile="Program.cs" line="7" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
