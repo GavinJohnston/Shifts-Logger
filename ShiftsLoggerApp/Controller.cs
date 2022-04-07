@@ -81,5 +81,16 @@ namespace ShiftsLoggerApp
 
             Console.ReadLine();
         }
+
+        public static async void DeleteShift(int ShiftId) {
+
+          var url = "https://localhost:7194/shiftslogger";
+
+          using var client = new HttpClient();
+
+          var response = await client.DeleteAsync($"{url}/{ShiftId}");
+
+          var result = await response.Content.ReadAsStringAsync();
+        }
     }
 }

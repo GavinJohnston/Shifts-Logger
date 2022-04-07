@@ -100,7 +100,19 @@ namespace ShiftsLoggerApp
         public static void DeleteData() {
             Console.WriteLine("Delete Shift Data\n\n");
 
-            Console.ReadLine();
+            var ShiftList = Controller.GetShiftsList();
+
+           Console.WriteLine("Enter the ID of a shift from the list below to delete");
+
+            ConsoleTableBuilder
+                .From(ShiftList)
+                .ExportAndWrite();
+
+            Console.WriteLine("\n");
+
+            int ShiftId = int.Parse(Console.ReadLine());
+
+            Controller.DeleteShift(ShiftId);
         }
     }
 }

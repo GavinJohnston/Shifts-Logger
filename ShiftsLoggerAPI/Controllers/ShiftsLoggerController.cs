@@ -54,7 +54,7 @@ public class ShiftsLoggerController : ControllerBase
         return Ok(await _context.ShiftsTable.ToListAsync());
     }
 
-    [HttpDelete]
+    [HttpDelete("{id}")]
 
     public async Task<ActionResult<List<Shifts>>> Delete(int id)
     {
