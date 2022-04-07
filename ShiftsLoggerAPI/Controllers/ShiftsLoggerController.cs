@@ -27,7 +27,7 @@ public class ShiftsLoggerController : ControllerBase
         return Ok(shift);
     }
 
-    [HttpPost("{id}")]
+    [HttpPost]
 
     public async Task<ActionResult<List<Shifts>>> Post(Shifts newshift)
     {
@@ -37,7 +37,7 @@ public class ShiftsLoggerController : ControllerBase
         return Ok(await _context.ShiftsTable.ToListAsync());
     }
 
-    [HttpPut]
+    [HttpPut("{id}")]
 
     public async Task<ActionResult<List<Shifts>>> Put(Shifts request)
     {
