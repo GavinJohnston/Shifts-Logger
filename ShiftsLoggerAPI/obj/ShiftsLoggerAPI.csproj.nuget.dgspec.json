@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gavin/Projects/Shifts Logger/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj": {}
+    "/Users/gavin/Projects/ShiftsLogger/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj": {}
   },
   "projects": {
-    "/Users/gavin/Projects/Shifts Logger/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj": {
+    "/Users/gavin/Projects/ShiftsLogger/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gavin/Projects/Shifts Logger/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj",
+        "projectUniqueName": "/Users/gavin/Projects/ShiftsLogger/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj",
         "projectName": "ShiftsLoggerAPI",
-        "projectPath": "/Users/gavin/Projects/Shifts Logger/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj",
+        "projectPath": "/Users/gavin/Projects/ShiftsLogger/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj",
         "packagesPath": "/Users/gavin/.nuget/packages/",
-        "outputPath": "/Users/gavin/Projects/Shifts Logger/ShiftsLoggerAPI/obj/",
+        "outputPath": "/Users/gavin/Projects/ShiftsLogger/ShiftsLoggerAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gavin/.nuget/NuGet/NuGet.Config"

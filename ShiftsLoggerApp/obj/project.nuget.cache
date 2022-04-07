@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "34K38IeuWjmGawxHtUirylF/yn96L6dKIyQcU9ukUik4Hg73jrVaZYakIil2xf1u0CQq5iDQ88YWvQwzGBShxA==",
+  "dgSpecHash": "83MhajhB0kTzzaT1gO15qZl6LhW669eoo+NEoY3SLrU/8tMozhuH3njn2V6r0UD5nRGXziKdrrQltg38SIVpcQ==",
   "success": true,
   "projectFilePath": "/Users/gavin/Projects/ShiftsLogger/ShiftsLoggerApp/ShiftsLoggerApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/gavin/.nuget/packages/consoletableext/3.1.9/consoletableext.3.1.9.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/restsharp/107.3.0/restsharp.107.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.linq/4.3.0/system.linq.4.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.reflection.primitives/4.3.0/system.reflection.primitives.4.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.resources.resourcemanager/4.3.0/system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.runtime.extensions/4.3.0/system.runtime.extensions.4.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.text.json/5.0.0/system.text.json.5.0.0.nupkg.sha512",
+    "/Users/gavin/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

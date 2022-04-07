@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m3JxxNlGcFAMSV4ltv38p9LfGTSJ+qRnNiFalLEF4PgYIY07mLsxzjLaZjtzl9kbhenPbLLoH8LM4GnrOg48Og==",
+  "dgSpecHash": "5SUad0tDPK40CTa3xwTQMn71NSwb4rZHTgj4wv8cJgAC75N7SxKWhogAE0xe54q1+AAyP4gedSjZ2+KElRV3Zg==",
   "success": true,
-  "projectFilePath": "/Users/gavin/Projects/Shifts Logger/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj",
+  "projectFilePath": "/Users/gavin/Projects/ShiftsLogger/ShiftsLoggerAPI/ShiftsLoggerAPI.csproj",
   "expectedPackageFiles": [
     "/Users/gavin/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/gavin/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
