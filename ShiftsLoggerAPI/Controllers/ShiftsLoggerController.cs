@@ -27,7 +27,7 @@ public class ShiftsLoggerController : ControllerBase
         return Ok(shift);
     }
 
-    [HttpPost]
+    [HttpPost("{id}")]
 
     public async Task<ActionResult<List<Shifts>>> Post(Shifts newshift)
     {

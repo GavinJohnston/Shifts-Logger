@@ -60,7 +60,41 @@ namespace ShiftsLoggerApp
         public static void UpdateData() {
             Console.WriteLine("Update Shift Data\n\n");
 
-            Console.ReadLine();
+            var ShiftList = Controller.GetShiftsList();
+
+            Console.WriteLine("Enter the ID of a shift from the list below to update");
+
+            ConsoleTableBuilder
+                .From(ShiftList)
+                .ExportAndWrite();
+
+            Console.WriteLine("\n");
+
+            int ShiftId = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Answer the following questions to update your shift");
+
+            Console.WriteLine("What is the shift start date? (2022-01-01");
+
+            DateTime StartTime = Convert.ToDateTime(Console.ReadLine());
+
+            Console.WriteLine("What is the shift end date? (2022-01-01");
+
+            DateTime EndTime = Convert.ToDateTime(Console.ReadLine());
+
+            Console.WriteLine("How many hours is the shift?");
+
+            decimal Hours = Convert.ToDecimal(Console.ReadLine());
+
+            Console.WriteLine("What is the location of the shift?");
+
+            string Location = Console.ReadLine();
+
+            decimal Minutes = Hours * 60;
+
+            decimal Pay = Minutes * Convert.ToDecimal(12.00);
+
+            Controller.EditShift(ShiftId, StartTime, EndTime, Minutes, Pay, Location);
         }
 
         public static void DeleteData() {
@@ -68,7 +102,5 @@ namespace ShiftsLoggerApp
 
             Console.ReadLine();
         }
-
-
     }
 }
